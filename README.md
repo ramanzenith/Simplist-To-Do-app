@@ -60,13 +60,19 @@ Designed with modular architecture and reusable components for maintainability a
 ---
 
 ## 📂 Project Structure
-
-lib/
-├── main.dart
-├── pages/
-├── widgets/
-├── database/
-
+```
+Simplist-To-Do-app/
+├── android/
+├── windows/
+├── assets/
+├── lib/
+│   ├── main.dart
+│   ├── pages/
+│   ├── widgets/
+│   └── database/
+├── pubspec.yaml
+└── README.md
+```
 ---
 
 ## 🧠 Architecture Highlights
@@ -80,9 +86,9 @@ lib/
 
 ## 📸 Screenshots
 
-![Home Screen](assets/screenshots/home.png)
-![Add Task](assets/screenshots/add_task.png)
-![Slidable](assets/screenshots/slidable.png)
+| Home Screen | Add Task | Slidable |
+|-------------|----------|----------|
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/add_task.png) | ![](assets/screenshots/slidable.png) |
 
 ---
 
