@@ -1,5 +1,4 @@
 
-```markdown
 <h1 align="center">📝 Simplist</h1>
 
 <p align="center">
