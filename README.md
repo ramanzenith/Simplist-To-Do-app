@@ -1,34 +1,40 @@
-Perfect. Here is a **complete, clean, professional README.md file** ready to paste.
 
-Just replace:
+```markdown
+<h1 align="center">📝 Simplist</h1>
 
-* `YOUR_USERNAME`
-* `YOUR_REPO`
+<p align="center">
+  Simplify Tasks • Amplify Productivity • Stay Organized
+</p>
 
-after you create the GitHub release.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" />
+  <img src="https://img.shields.io/badge/Dart-3.x-blue?logo=dart" />
+  <img src="https://img.shields.io/badge/Hive-Local%20Database-yellow" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Windows-green" />
+  <img src="https://img.shields.io/github/last-commit/ramanzenith/Simplist-To-Do-app" />
+</p>
 
 ---
 
-````markdown
-# 📝 Simplist To-Do App
+## 🚀 Overview
 
-A clean and minimal task management application built using **Flutter**.
+**Simplist** is a lightweight, cross-platform task management application built with **Flutter**.  
+It provides a clean and minimal interface with persistent local storage powered by **Hive**.
 
-This app allows users to manage daily tasks with local data persistence using **Hive**.  
-It supports Android and Windows platforms.
+Designed with modular architecture and reusable components for maintainability and scalability.
 
 ---
 
 ## ✨ Features
 
-- ➕ Add new tasks
-- ✏ Edit existing tasks
-- 🗑 Delete tasks using swipe actions (Slidable)
-- ✅ Mark tasks as completed
-- 💾 Persistent local storage using Hive
-- 🟨 Minimal yellow-themed UI
-- 📱 Android support
-- 🖥 Windows desktop support
+- ➕ Add Tasks  
+- ✏ Edit Tasks  
+- 🗑 Swipe-to-Delete (Slidable)  
+- ✅ Mark Tasks as Completed  
+- 💾 Local Persistent Storage (Hive)  
+- 🟨 Minimal UI Design  
+- 📱 Android APK Support  
+- 🖥 Windows Desktop Support  
 
 ---
 
@@ -36,7 +42,7 @@ It supports Android and Windows platforms.
 
 - **Flutter**
 - **Dart**
-- **Hive (Local NoSQL Database)**
+- **Hive (NoSQL Local Database)**
 - **flutter_slidable**
 - Windows Desktop Support
 
@@ -45,101 +51,53 @@ It supports Android and Windows platforms.
 ## 📦 Download Builds
 
 ### 📱 Android APK
-
-Download the latest Android build:
-
-👉 https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/app-release.apk
-
+👉 https://github.com/ramanzenith/Simplist-To-Do-app/releases/download/v1.0.0/Simplist.To-Do.App.apk  
 
 ### 🖥 Windows Version
+👉 https://github.com/ramanzenith/Simplist-To-Do-app/releases/download/v1.0.0/Simplist.To-Do.App.zip  
 
-Download the Windows executable:
-
-👉 https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/windows-release.zip
-
-> ⚠ Extract the ZIP file and run the `.exe` inside the Release folder.
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-````
-
-2. Navigate into the project folder:
-
-```bash
-cd YOUR_REPO
-```
-
-3. Install dependencies:
-
-```bash
-flutter pub get
-```
-
-4. Run the app:
-
-```bash
-flutter run
-```
+> Extract the ZIP file and run the `.exe`.
 
 ---
 
 ## 📂 Project Structure
 
-```
 lib/
- ├── main.dart
- ├── pages/
- ├── widgets/
- ├── database/
-```
+├── main.dart
+├── pages/
+├── widgets/
+├── database/
+
+---
+
+## 🧠 Architecture Highlights
+
+- Modular widget-based UI
+- Clear separation of UI & data logic
+- Persistent storage abstraction via Hive
+- Cross-platform build configuration
 
 ---
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
-
-Example:
-
-```
 ![Home Screen](assets/screenshots/home.png)
-![Add Task Dialog](assets/screenshots/add_task.png)
-```
+![Add Task](assets/screenshots/add_task.png)
+![Slidable](assets/screenshots/slidable.png)
 
 ---
 
-## 🧠 What I Learned
+## 🔮 Future Improvements
 
-* Implementing local persistence using Hive
-* Managing state in Flutter
-* Using controllers for TextField input
-* Implementing swipe actions with Slidable
-* Building release APK and Windows executables
-* Publishing projects professionally on GitHub
-
----
-
-## 📌 Future Improvements
-
-* 🌙 Dark Mode
-* 📅 Due Dates
-* 🔎 Search Functionality
-* ☁ Cloud Sync
-* 📊 Task statistics
+- 🌙 Dark Mode
+- 📅 Due Dates
+- 🔎 Search & Filter
+- ☁ Cloud Sync
+- 📊 Analytics Dashboard
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
-
-```
-
----
+MIT License © 2026 Ramandeep Singh
 
